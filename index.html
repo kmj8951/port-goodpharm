@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>굿팜</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css">
+
+  <!-- 순서 -->
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <!-- 제이쿼리쓰려면필요한거 -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="inner">
+      <div class="group-flex">
+        <div class="logo-area">
+          <h1 class="logo">
+            <a href="">
+              <img src="./assets/img/logo.svg" alt="굿팜로고">
+            </a>
+          </h1>
+        </div>
+        <nav class="gnb">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="" class="nav">모바일약</a></li>
+            <li class="nav-item"><a href="" class="nav">굿팜 솔루션</a></li>
+            <li class="nav-item"><a href="" class="nav">파머시 랩</a></li>
+            <li class="nav-item"><a href="" class="nav">굿팜 뉴스</a></li>
+          </ul>
+        </nav>
+        <ul class="sns-list">
+          <li class="sns-item">
+            <a href="" class="blog"><span class="blind">블로그</span></a>
+          </li>
+          <li class="sns-item">
+            <a href="" class="kakao"><span class="blind">카카오스토리</span></a>
+          </li>
+          <li class="sns-item">
+            <a href="" class="youtube"><span class="blind">유튜브</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 메인비주얼 -->
+    <section class="sc-visual">
+      <h2 class="blind">메인비주얼</h2>
+      <div class="swiper main-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assets/img/mainslide01.png" alt="" class="bg">
+            <div class="inner">
+              <div class="text-box">
+                <p class="badge">모바일 약국</p>
+                <p class="sub-title">채팅 기반 쉽고 편리한</p>
+                <p class="sub-title">모바일 약국</p>
+                <p class="desc">더 편리하게, 더 빠르게. 새로운 약국 생활을 경험해보세요.></p>
+                <div class="link-join"><a href="">가입신청 및 문의</a></div>
+                <span class="fraction">01/03</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/mainslide02.png" alt="" class="bg">
+            <div class="inner">
+              <div class="text-box">
+                <p class="badge">굿팜 솔루션</p>
+                <p class="sub-title">Pharmacy First</p>
+                <p class="sub-title">약국 디지털 전환을 완성하다.</p>
+                <p class="desc">더 편리하게, 더 빠르게. 새로운 약국 생활을 경험해보세요.></p>
+                <div class="link-join"><a href="">가입신청 및 문의</a></div>
+                <span class="fraction">02/03</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/img/mainslide03.png" alt="" class="bg">
+            <div class="inner">
+              <div class="text-box">
+                <p class="badge">모바일 약국 APP</p>
+                <p class="sub-title">단골고객 확보와 고객관리는</p>
+                <p class="sub-title">모바일약국 APP으로 하세요! </p>
+                <p class="desc">더 편리하게, 더 빠르게. 새로운 약국 생활을 경험해보세요.></p>
+                <div class="link-join"><a href="">가입신청 및 문의</a></div>
+                <span class="fraction">03/03</span>
+              </div>
+          </div>
+        </div>
+        <!-- 여기다가 -->
+        <p class="swiper-pagination"></p>
+      </div>
+    </section>
+
+    <!-- 굿팜 솔루션 -->
+    <section class="sc-solution">
+      <div class="group-title">
+        <img src="./assets/img/solution-title.png" alt="">
+        <h2 class="headline"> 디지털 헬스케어 시대 약국,<br>
+          이젠 내 약국의 고객확보가 경쟁력이 되는
+          시대입니다.
+        </h2>
+      </div>
+      <div class="solution-inner">
+        <p class="circle-big">고객<br>
+          모바일약국<br>
+          APP</p>
+        <span class="dot line-left"></span>
+        <div class="circle-wrap" data-aos="fade-up">
+          <div class="circle-center"></div>
+          <ul class="solution-list">
+            <li class="solution-item">
+              <a href="" data-page="circle1"> 굿팜<br> 키오스크 </a>
+            </li>
+            <li class="solution-item"><a href="" data-page="circle2">PMR</a></li>
+            <li class="solution-item"><a href="" data-page="circle3">POS</a></li>
+            <li class="solution-item">
+              <a href="" data-page="circle3">주문/입고<br> 주문관리</a>
+            </li>
+            <li class="solution-item">
+              <a href="" data-page="circle4">청구<br> CW</a>
+            </li>
+            <li class="solution-item">
+              <a href="" data-page="circle5">고객<br> 관리</a>
+            </li>
+            <li class="solution-item">
+              <a href="" data-page="circle6">경영<br> 관리</a>
+            </li>
+            <li class="solution-item">
+              <a href="" data-page="circle7">바코드<br> 프리</a>
+            </li>
+          </ul>
+        </div>
+
+        <span class="dot line-right"></span>
+        <p class="circle-big">약사(약국)</p>
+      </div>
+
+      <div class="text-box">
+        <strong>GOODPHARM SOLUTION</strong><br>
+        <span>주치 약사 기반 맞춤 건강관리를 위한 <br>DIGITAL PHARMACY</span>
+      </div>
+    </section>
+
+    <!-- All in one -->
+    <section class="sc-allinone">
+      
+      <div class="col-left">
+        <p class="box box1" data-aos="fade-up" >쉽고 정확한 고객 약력관리</p>
+        <p class="box box2" data-aos="fade-up" data-aos-delay="300">30% 빨라진 처방 조제 속도</p>
+        <p class="box box3" data-aos="fade-up" data-aos-delay="400">업무 효율 UP! 약국 생활 워라벨 보장</p>
+        <p class="box box4" data-aos="fade-up" data-aos-delay="500">내 약국 APP으로 쉽고 편리한 고객관리</p>
+      </div>
+
+      <div class="group-title">
+        <h2 class="headline">
+          약사님이 더, 더 편리해지는<br>
+          굿팜 솔루션, All in one.
+        </h2>
+        <p class="desc">우고객과 약국을 연결하는 굿팜 솔루션 All in one을 통해<br>
+          더, 더 편리해지는 약국 생활을 누려보세요.</p>
+      </div>
+    </section>
+
+    <!-- 시스템 (키오스크 system) 영역 -->
+    <section class="sc-system">
+      <!-- 좌측 타이틀 -->
+        <div class="swiper-inner">
+
+          <div class="swiper system-slide2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                
+                <div class="text-box">
+                  <div class="badge">키오스크</div>
+                  <div class="group-title">
+                    <h2 class="headline">
+                      바코드 없이<br>
+                      스마트폰 카메라로도!<br>
+                      처방전 스캔 고민 해결
+                    </h2>
+                    <p class="desc">
+                      이제는 바코드 없이 스마트폰 카메라로도<br>
+                      처방전을 입력할 수 있어 스트레스 해결
+                    </p>
+                  </div>
+                  <a href="" class="link-go">더 알아보기</a>
+                </div>
+
+                <div class="col-right">
+                  <img src="./assets/img/systemslide01.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                
+                <div class="text-box">
+                  <div class="badge active">바코드프리</div>
+                  <div class="group-title">
+                    <h2 class="headline">
+                      바코드 없이<br>
+                      스마트폰 카메라로도!<br>
+                      처방전 스캔 고민 해결
+                    </h2>
+                    <p class="desc">
+                      이제는 바코드 없이 스마트폰 카메라로도<br>
+                      처방전을 입력할 수 있어 스트레스 해결
+                    </p>
+                  </div>
+                  <a href="" class="link-go">더 알아보기</a>
+                </div>
+
+                <div class="col-right">
+                  <img src="./assets/img/systemslide02.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                
+                <div class="text-box">
+                  <div class="badge active">모바일약국APP</div>
+                  <div class="group-title">
+                    <h2 class="headline">
+                      우리 약국 단골 고객은<br>
+                      모바일 약국이 책임질게요
+                    </h2>
+                    <p class="desc">
+                      우리약국 단골 고객 확보에 최적화,<br>
+                      처방전 오더로 약료서비스 집중과 노쇼 방지 완료!
+                    </p>
+                  </div>
+                  <a href="" class="link-go">더 알아보기</a>
+                </div>
+
+                <div class="col-right">
+                  <img src="./assets/img/systemslide03.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                
+                <div class="text-box">
+                  <div class="badge active">PMR 약력관리</div>
+                  <div class="group-title">
+                    <h2 class="headline">
+                      이 고객님..<br>
+                      저번에 어떤약 받아가셨지?<br>
+                      쉽고 정확한 고객 약력관리
+                    </h2>
+                    <p class="desc">
+                      환자리스트/정보와 과거조제판매내역까지<br>
+                      필요한 정보를 모두 한 눈에!
+                    </p>
+                  </div>
+                  <a href="" class="link-go">더 알아보기</a>
+                </div>
+
+                <div class="col-right">
+                  <img src="./assets/img/systemslide04.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-slide">
+                
+                <div class="text-box">
+                  <div class="badge active">POS</div>
+                  <div class="group-title">
+                    <h2 class="headline">
+                      일반약품도 같이<br>
+                      구매하신다고요?<br>
+                      문제없어요! 결제만 해주세요!
+                    </h2>
+                    <p class="desc">
+                      결제화면과 조제/판매현황으로 약품판매를<br>
+                      원활하게, 제품등록까지 편리하니까!
+                    </p>
+                  </div>
+                  <a href="" class="link-go">더 알아보기</a>
+                </div>
+
+                <div class="col-right">
+                  <img src="./assets/img/systemslide05.png" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="fraction">
+            <span class="curr">01</span>
+            <span class="line"></span>
+            <span class="total">09</span>
+          </div>
+          <button class="autoplay">
+            <span class="blind">자동재생 정지</span>
+          </button>
+          <div class="tab-nav"></div>
+
+
+        </div>
+
+      
+    </section>
+
+    <!-- 배너영역 -->
+    <section class="sc-banner">
+      <a href="">
+        <div class="group-title">
+          <h2 class="headline">
+            월 45,000원으로 굿팜을 이용해보세요.
+          </h2>
+          <p class="desc">이제 불합리한 위약금, 약정에서 벗어나세요.<br>
+            약정기간, 위약금 NO! 복잡한 A/S도, 유지보수도 무료!</p>
+        </div>
+        <div class="link-join">가입 신청 및 문의</div>
+      </a>
+    </section>
+
+    <!-- 파머시랩 영역 -->
+    <section class="sc-pharmacy">
+
+      <div class="title-box">
+        <div class="group-title">
+          <img src="./assets/img/pharmacy-title.png" alt="">
+          <div class="flex-area">
+            <h2 class="headline">
+              첫 인상이 중요하다면,<br>
+              약국의 첫 인상은 파머시 랩이 함께.
+            </h2>
+            <a href="" class="link-go">더 알아보기</a>
+          </div>
+        </div>
+      </div>
+
+      <ul class="pharmacy-list">
+
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy01.png" alt="공간디자인" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box">
+                <strong class="sub-title">공간디자인 - 70:25:5의 법칙</strong>
+                <p class="desc">
+                  기본 색상 70% + 보조색상 25% + 주제색상 5%
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy02.png" alt="친환경 E0등급" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box">
+                <strong class="sub-title">친환경 E0등급 합판 사용</strong>
+                <p class="desc">
+                  굿팜은 친환경자재 E0등급의<br>
+                  자재만 사용해 제작합니다.
+                </p>
+              </div>
+              <div class="graph">
+                <img src="./assets/img/graph.png" alt="그래프">
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy03.png" alt="플랜테리어" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box1">
+                <strong class="deep-title">플랜테리어</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy04.png" alt="고객 동선을 고려한 과학적 설계" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box1">
+                <strong class="deep-title">고객동선을 고려한 과학적 설계</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy05.png" alt="외부 파사드 디자인" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box1">
+                <strong class="deep-title">외부 파사드 디자인</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="pharmacy-item">
+          <a href="">
+            <div class="front">
+              <img src="./assets/img/pharamacy06.png" alt="머물고 싶은 따뜻한" class="image">
+            </div>
+            <div class="back">
+              <div class="text-box1">
+                <strong class="deep-title">머물고 싶은 따뜻한 컬러</strong>
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <!-- before/after 영역 -->
+    <section class="sc-before">
+
+      <div class="group-title">
+        <h2 class="headline">
+          파머시 랩을 만난 후<br>
+          이렇게 바뀌었습니다.
+        </h2>
+        <a href="" class="link-go">더 알아보기</a>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper before-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/before01_01.jpg" alt="" class="백두산약국before">
+                <img src="./assets/img/before01_02.jpg" alt="" class="백두산약국after">
+              </div>
+              <div class="text-box">
+                <p class="title">Before &amp; After</p>
+                <div class="flex-area">
+                  <p class="sub-title">백두산약국</p>
+                  <p class="desc">
+                    복잡했던 약국 내부를 방문 고객들의 동선을 생각하여 최적화된 설계로 방문 고객의 편의를 높여 방문률을 높인 사례입니다.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="">
+              <div class="img-box">
+                <img src="./assets/img/before02_01.jpg" alt="" class="before">
+                <img src="./assets/img/before02_02.jpg" alt="" class="after">
+              </div>
+              <div class="text-box">
+                <p class="title">Before &amp; After</p>
+                <div class="flex-area">
+                  <p class="sub-title">공생약국</p>
+                  <p class="desc">
+                    리뉴얼 및 확장 개업을 하기 위해 파머시랩에 외부내부의 인테리어 시공을 맡겨주셨고, 오픈 후 최적의 동선과 눈에띄는 외부 디자인으로 고객 방문률이 상승한 사례입니다.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- 버튼 -->
+        <button class="btn prev">
+          <span class="blind">이전 버튼</span>
+          <!-- <img src="https://www.goodpharm.kr/assets/images/icon/c-slide-pre.svg" alt=""> -->
+        </button>
+        <button class="btn next">
+          <span class="blind">다음 버튼</span>
+          <!-- <img src="https://www.goodpharm.kr/assets/images/icon/c-slide-next.svg" alt=""> -->
+        </button>
+      </div>
+    </section>
+
+    <!-- with 굿팜 영역 -->
+    <section class="sc-with">
+      <div class="group-title">
+        <span>With 굿팜</span>
+        <img src="" alt="">
+        <h2 class="headline">
+          굿팜과 함께하는 약국의 변화 직접 경험해보세요.
+        </h2>
+        <p>A 약국 3개월 전/후 데이터</p>
+      </div>
+
+      <div class="chart-wrap">
+        <p class="text-box">
+          굿팜과 함께한 이후 A약국은<br>
+          <b>고객수 43% 재방문율 53% 매출 75%</b>가 올랐습니다.
+        </p>
+        <div class="rate-box" data-tit="매출">
+          <p class="bar bar1 active"></p>
+          <p class="arrow arrow1">
+            <span>
+              약 <b>43%</b><br>
+              성장</span>
+          </p>
+          <p class="bar bar2"></p>
+        </div>
+        <div class="rate-box" data-tit="고객수">
+          <p class="bar bar3"></p>
+          <p class="arrow arrow2">
+            <span>
+              약 <b>53%</b><br>
+              성장</span>
+          </p>
+          <p class="bar bar4"></p>
+        </div>
+        <div class="rate-box" data-tit="매출">
+          <p class="bar bar5"></p>
+          <p class="arrow arrow3">
+            <span>
+              약 <b>75%</b><br>
+              증가</span>
+          </p>
+          <p class="bar bar6"></p>
+        </div>
+      </div>
+      <div class="list">
+        <span>고객수</span>
+        <span>재방문율</span>
+        <span>매출</span>
+      </div>
+    </section>
+
+    <!-- 굿팜 후기 영역 -->
+    <section class="sc-review">
+      <div class="review-wrap">
+        <div class="badge">굿팜 후기</div>
+        <div class="group-title">
+          <h2 class="headline">
+            굿팜 설치만 했을 뿐인데,<br>
+            벌써 3년을<br>
+            함께했습니다.
+          </h2>
+        </div>
+        <!-- 버튼 -->
+        <button class="btn prev">
+        </button>
+        <button class="btn next">
+        </button>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper review-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <p class="title">안성 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                약국의 대체조제 할 수 있는 재고약품별로 직접 세팅이 가능한 점이 매우 만족스러웠어요. 키오스크 설명과 운영하는데 있어서 오래 배우거나 어려움 없이 교대 근무하는 약국 구성원 모두 빠르게
+                적응하여 사용하고 있습니다.
+              </p>
+              <p class="name">약사 유**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">중랑 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                굿팜 도입 후, 처방 접수 및 결제 시간이 많이 단축 되었어요. 대체 조제가 많아 매번 수정하느라 번거로웠는데, 키오스크로 입력 시에 자동으로 대체조제가 되는 기능으로 지금은 너무 편하게
+                이용하고 있어요.
+              </p>
+              <p class="name">약사 서**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">노원 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                굿팜 설치 후, 조제중에도 새로운 처방전이 완료되어 ATC까지
+                넘어와서 업무가 너무 빠르고 복약설명에 좀 더 집중할 수 있어서
+                내방하는 고객분들의 만족도가 높아요. 다양한 옵선 기능으로
+                정말 편리하게 이용중입니다.
+              </p>
+              <p class="name">약사 김**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">송파구 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                하루에 처리하는 처방건수만 150건 정도되는데 약국 인원
+                2명으로 처방과 매약 판매 무리없이 가능하며 키오스크 한 번에
+                처방전 입력이 가능하여 5명씩 몰려도 처방 대기 고객 없이 굿팜
+                키오스크에서 입력하고 있어요.
+              </p>
+              <p class="name">약사 차**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">성남 OO약국국</p>
+            <div class="text-box">
+              <p class="desc">
+                일반약도 약국 입구 쪽에 설치된 키오스크를 통해 고객들이 직접
+                구매 가능하기때문에 이에 익숙한 젊은 고객들이 잘 사용하고
+                있어 관리에 별도 어려움이 없어요. 파트타임 근무 약사님이
+                퇴근하셔도 키오스크 처방접수 덕분에 별도의 수기입력을 덜어
+                큰 무리없이 업무가 가능하더라고요.
+              </p>
+              <p class="name">약사 박**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">용인 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                처방접수 고객이 늘어나고 약 조제시에도 자체 음성지원으로
+                처방접수, 결제, 오류 등의 상황을 인지할 수 있어 상황에 따른
+                대처가 가능해요. 일반약 구매 시 고객과 이력이 매칭되어 PMR로
+                확인 가능하기 때문에 추가 구매, 건기식 안내에 큰 도움이
+                되었습니다.
+              </p>
+              <p class="name">약사 김**님의 후기</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <p class="title">송파구 OO약국</p>
+            <div class="text-box">
+              <p class="desc">
+                하루에 처리하는 처방건수만 150건 정도되는데 약국 인원
+                2명으로 처방과 매약 판매 무리없이 가능하며 키오스크 한 번에
+                처방전 입력이 가능하여 5명씩 몰려도 처방 대기 고객 없이 굿팜
+                키오스크에서 입력하고 있어요.
+              </p>
+              <p class="name">약사 차**님의 후기</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 굿팜 뉴스 영역 -->
+    <section class="sc-news">
+      <div class="group-title">
+        <p class="badge">굿팜 뉴스</p>
+        <h2 class="headline">
+          새 소식을 전해드립니다.
+        </h2>
+      </div>
+
+      <ul class="news-list">
+        <li class="news-item">
+          <a href="">
+            <div class="text-box">
+              <p class="title">약사공론</p>
+              <p class="desc">
+                광동제약, 디지털 약국 플랫폼 헬스포트와 전략적 제휴
+              </p>
+              <time class="date" dateime="2023-01-16">2023.01.16</time>
+            </div>
+            <div class="img-box">
+              <img src="./assets/img/news01.png" alt="광동-헬스포스">
+            </div>
+          </a>
+        </li>
+        <li class="news-item">
+          <a href="">
+            <div class="text-box">
+              <p class="title">동아일보</p>
+              <p class="desc">
+                광동제약 ‘디지털 전환’ 가속… 신성장동력 확보 나선다
+              </p>
+              <time class="date" dateime="2023-01-16">2023.01.16</time>
+            </div>
+            <div class="img-box">
+              <img src="./assets/img/news02.png" alt="광동">
+            </div>
+          </a>
+        </li>
+        <li class="news-item">
+          <a href="">
+            <div class="text-box">
+              <p class="title">데일리팜</p>
+              <p class="desc">
+                약국도 카페처럼 사이렌오더...대기줄도 노쇼도 없어
+              </p>
+              <time class="date" dateime="2022-05-16">2022.05.16</time>
+            </div>
+            <div class="img-box">
+              <img src="./assets/img/news03.png" alt="결재">
+            </div>
+          </a>
+        </li>
+        <li class="news-item">
+          <a href="">
+            <div class="text-box">
+              <p class="title">데일리팜</p>
+              <p class="desc">
+                디지털 전환 핵심 '모바일약국'… 온가족 건강관리
+              </p>
+              <time class="date" dateime="2022-08-12">2022.08.12</time>
+            </div>
+            <div class="img-box">
+              <img src="./assets/img/news04.png" alt="굿팜">
+            </div>
+          </a>
+        </li>
+      </ul>
+      <a href="" class="link-go">더 알아보기</a>
+    </section>
+
+    <div class="fix-top">
+      <div class="btn-join">
+        <div class="logo">
+          <img src="./assets/img/icon-button-logo.png" alt="로고">
+        </div>
+        <div class="text">
+          <strong>가입 신청 및 문의</strong>
+          <p>약사님과 함께 미래를 만들어나갑니다.</p>
+        </div>
+      </div>
+      <button class="btn-top">TOP</button>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="inner">
+      <div class="group-info">
+        <img src="./assets/img/foot_logo.png" alt="">
+        <div class="info">
+          <strong>약국 가입 상담 문의<i class="bar"></i>굿팜 자료실</strong>
+        </div>
+        <div class="adress">
+          <p>헬스포트<i class="bar"></i>서울 광진구 광나루로56길 85, 17층 11,12호<i class="bar"></i>이메일: goodpharm@healthport.co.kr<br>
+            대표자: 박현순<i class="bar"></i>고객센터: 1600-3122<i class="bar"></i>사업자 등록번호: 149-88-01414
+          </p>
+          <span>COPYRIGHT ⓒ 2023 GOODPHARM. ALL RIGHTS RESERVED.</span>
+        </div>
+      </div>
+      <ul class="sns-list">
+        <li class="sns-item">
+          <a href="" class="blog"><span class="blind">블로그</span></a>
+        </li>
+        <li class="sns-item">
+          <a href="" class="kakao"><span class="blind">카카오스토리</span></a>
+        </li>
+        <li class="sns-item">
+          <a href="" class="youtube"><span class="blind">유튜브</span></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+</div>

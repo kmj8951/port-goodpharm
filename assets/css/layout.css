@@ -1,0 +1,136 @@
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+
+/* 헤더 영역 */
+.container{
+    padding-top: 78px;
+}
+
+header{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    background: #f9f9f9;
+    z-index: 10;
+}
+
+header .group-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+}
+
+header .logo-area{
+    width: 85px;
+    height: 24px;
+}
+
+.gnb{}
+.gnb .nav-list{
+    display: flex;
+    gap: 80px;
+}
+.gnb .nav-item{
+    font-size: 16px;
+    font-weight: 700;
+}
+.gnb .nav-item:last-child{
+    margin-right: 0;
+}
+
+
+.header .sns-list{
+    display: flex;
+    gap: 20px;
+    
+}
+.header .sns-item a{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #f00;
+}
+
+.header .sns-item a.blog{background: url(../img/icon-blog.svg)}
+.header .sns-item a.kakao{background: url(../img/icon-kakao.svg)}
+.header .sns-item a.youtube{background: url(../img/icon-youtube.svg)}
+
+.header .sns-item a.blog:hover{background: url(../img/icon-blog_h.svg)}
+.header .sns-item a.kakao:hover{background: url(../img/icon-kakao_h.svg)}
+.header .sns-item a.youtube:hover{background: url(../img/icon-youtube_h.svg)}
+
+/* 푸터 영역 */
+.footer{
+    background: #393b3C;
+}
+.footer .inner{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.footer .group-info{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer .group-info img{
+    width: 77px;
+    height: 22px;
+    margin-bottom: 30px;
+}
+.footer .group-info .info strong{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+.footer .group-info .adress{
+display: flex;
+flex-direction: column;
+margin-bottom: 11px;
+}
+.footer .group-info .adress p{
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+.footer .group-info .adress span{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+}
+.footer .bar::after{
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .sns-list{
+    display: flex;
+    gap: 20px;
+    
+}
+.footer .sns-item a{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: #f00;
+}
+
+.footer .sns-item a.blog{background: url(../img/icon-blog.svg)}
+.footer .sns-item a.kakao{background: url(../img/icon-kakao.svg)}
+.footer .sns-item a.youtube{background: url(../img/icon-youtube.svg)}
+
+.footer .sns-item a.blog:hover{background: url(../img/icon-blog_h.svg)}
+.footer .sns-item a.kakao:hover{background: url(../img/icon-kakao_h.svg)}
+.footer .sns-item a.youtube:hover{background: url(../img/icon-youtube_h.svg)}

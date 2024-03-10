@@ -1,0 +1,69 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0)
+}
+.inner{
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.badge{
+    font-weight: normal;
+}
+.address{
+    font-style: normal;
+}
+  
+
+.fix-top{
+    position: fixed;
+    width: 307px;
+    height: 83px;
+    z-index: 10;
+}
+
+.fix-top .btn-join {
+    position: fixed;
+    width: 307px;
+    height: 83px;
+
+    padding: 20px 24px 20px 19px;
+    background: url(https://www.goodpharm.kr/assets/images/main/f-button-bg.png) no-repeat;
+    background-color: #EBFCFD;
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(2, 7, 32, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.fix-top .btn-join .logo{
+    width: 42px;
+    height: 42px;
+}
+.fix-top .btn-join .text{}
+
+.fix-top .text strong{
+    font-size: 15px;
+    font-weight: 700;
+}
+.fix-top .text p{
+    font-size: 14px;
+    color: #01373A;
+    padding-top: 4px;
+}
+.fix-top .btn-top{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 0 20px rgba(2, 7, 32, 0.1);
+}
